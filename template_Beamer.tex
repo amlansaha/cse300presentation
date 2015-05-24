@@ -35,7 +35,7 @@
 \begin{frame}
 	\frametitle{Let's see a problem}
 		\pause
-		A batsman scores the following runs in a tournament.
+		8 students get following marks in an exam.
 		\pause
 		\begin{table}[h]
 			\centering
@@ -46,7 +46,7 @@
 			\end{tabular}
 		\end{table}
 		\pause
-		\textbf{Sort the array of numbers.}		
+		\textbf{A teacher needs to sort the marks.}		
 \end{frame}
 
 \begin{frame}
@@ -56,8 +56,6 @@
 	We can use some commonly used algorithms here. Like:
 	\pause
 	\begin{itemize}
-		\item Insertion Sort
-		\pause
 		\item Bubble Sort
 		\pause
 		\item Merge Sort
@@ -76,18 +74,13 @@
 	\end{block}
 	\pause
 	\begin{block}{
-		\color{red}
-		\textit{All those algorithms take at least $n lg(n)$ time to sort the array.}}
-	\end{block}
-	\pause
-	\begin{block}{
 		\color{blue}
-		\textit{Can we sort in linear time?}}
+		\textit{Is there a faster way to sort?}}
 	\end{block}
 
 	\pause
 	\begin{block}{
-		\color{olivegreen}\textit{Yes, we can :)}}
+		\color{olivegreen}\textit{Yes, there is.}}
 	\end{block}	
 \end{frame}
 
@@ -115,14 +108,8 @@
 	\textbf{Assumptions:}
 	\begin{itemize}
 		\pause
-		\item inputs are in a small range.
-		\pause
-		\item inputs are distributed uniformly over the range.
+		\item inputs are distributed uniformly over a range.
 	\end{itemize}
-\end{frame}
-
-\begin{frame}
-	\frametitle{}
 \end{frame}
 
 \begin{frame}
@@ -307,7 +294,7 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Implementation.}
+	\frametitle{Brief Overview of Implementation.}
 	%While implementing the algorithm. We need:
 	\begin{itemize}
 		\pause
@@ -315,15 +302,45 @@
 		\pause	
 		\item Each element of the array will work as a bucket.
 		\pause		
-		\item Put each number into the right bucket.
+		\item Put each number into the appropriate bucket.
 		\pause		
-		\item Do insertion sort while putting each number.
+		\item Insert each number according to its order.
 		\pause		
 		\item Merge the buckets.
 	\end{itemize}
 \end{frame}
 
 \begin{frame}
-	
+	\frametitle{Issues with bucket sort.}
+	\textbf{Advantages:}
+	\begin{itemize}
+		\pause
+		\item Runtime is proportional to input size.
+		\pause
+		\item More uniform data takes less time to sort.
+		\pause
+		\item Technically its expected runtime is $  $ $O(n)$.
+	\end{itemize}
 \end{frame}
+
+\begin{frame}
+	\frametitle{Issues with bucket sort.}
+	\textbf{Limitations:}
+	\begin{itemize}
+		\pause
+		\item Non uniformly distributed data takes more time.
+		\pause
+		\item Not suitable for non-versatile data.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{References}
+	\begin{thebibliography}{}
+		\bibitem{}\emph{Introduction to Algorithms}, Thomas H. Cormen, Charles E.Leiserson, Ronald L. Rivest, Clifford Stein
+		%\bibitem{}"https://en.wikipedia.com/bucket_sort"
+	\end{thebibliography}
+\end{frame}
+
 \end{document}
+\ref
