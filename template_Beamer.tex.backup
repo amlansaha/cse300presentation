@@ -33,21 +33,12 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Let's discuss a problem}
-	\begin{figure}
-		\includegraphics[scale=.5]{Figure/ExamPaper.png}
-		%\caption{Bucket!!!}
-	\end{figure}
-\end{frame}
-
-\begin{frame}
-	\frametitle{Let's discuss a problem}
+	\frametitle{Let's see a problem}
 		\pause
 		8 students get following marks in an exam.
 		\pause
 		\begin{table}[h]
 			\centering
-			
 			\begin{tabular}{|c|c|c|c|c|c|c|c|}
 				\hline
 				29 & 25 & 3 & 49 & 9 & 37 & 21 & 43\\
@@ -104,7 +95,7 @@
 		\pause
 		\column{0.5\textwidth}
 		\begin{figure}
-		%	\includegraphics[scale=0.1]{Figure/bucket.png}
+			\includegraphics[scale=0.1]{Figure/bucket.png}
 		%\caption{Bucket!!!}
 		\end{figure}
 	\end{columns}
@@ -345,9 +336,15 @@
 
 \begin{frame}
 	\frametitle{Reference}
+	    \begin{itemize}
+		\pause
+		%\item "https://en.wikipedia.com/bucket_sort"
+		\pause
+		\item Not suitable for non-versatile data.
+	    \end{itemize}
 	\begin{itemize}
 		\item \emph{Introduction to Algorithms}, Thomas H. Cormen, Charles E.Leiserson, Ronald L. Rivest, Clifford Stein
-		%\item $"https://en.wikipedia.com/bucket_sort"$
+		
 	\end{itemize}
 \end{frame}
 
